@@ -22,7 +22,8 @@ if (!siteName) {
     await page.setViewport({ width: 1280, height: 720 });
 
     // スクリーンショットを撮影
-    const filePath = `output/screenshot-${siteName}-1280x720.png`;
+    const filePath = `screenshot-${siteName}-1280x720.png`;
+    // const filePath = `output/screenshot-${siteName}-1280x720.png`;
     await page.screenshot({ path: filePath });
 
     console.log(`スクリーンショットが保存されました: ${filePath}`);
