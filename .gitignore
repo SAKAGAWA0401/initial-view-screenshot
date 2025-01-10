@@ -1,0 +1,7 @@
+# output フォルダの中身を無視
+output/*
+# output フォルダそのものは含める
+!output/.gitkeep
+
+node_modules
+.DS_Store
